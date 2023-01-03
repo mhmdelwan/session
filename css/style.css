@@ -1,0 +1,271 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* S T A R T   N A V B A R  */
+.navbar-brand
+{
+    color: #FF305B;
+}
+.nav-link
+{
+    color: white;
+}
+.home-color
+{
+    color: #FF305B;
+}
+.nav-link:hover
+{
+    color: #FF305B;
+}
+/* E N D   N A V B A R */
+
+/* S T A R T   H O M E  */
+.home
+{
+    background-image: url(../images/slider/slider-01.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.bg-rgba
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.home-content h3
+{
+    font-size: 24px;
+}
+.home-content h1
+{
+    color: #FF305B;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.home-content h4
+{
+    font-size: 26px;
+    font-weight: 300;
+}
+ .home-content h4::after
+{
+  content: " ";
+  animation-name: designer;
+  animation-duration: 6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes designer
+{
+    0% {content: " ";}
+    3% {content: " D|";}
+    6% {content: " De|";}
+    9% {content: " Des|";}
+    12% {content: " Desi|";}
+    15% {content: " Desig|";}
+    18% {content: " Design|";}
+    21% {content: " Designe|";}
+    25% {content: " Designer|";}
+    28% {content: " Designe|";}
+    31% {content: " Design|";}
+    34% {content: " Desig|";}
+    37% {content: " Desi|";}
+    40% {content: " Des|";}
+    43% {content: " De|";}
+    47% {content: " D|";}
+    50% {content: " |";}
+    53% {content: " D|";}
+    56% {content: " De|";}
+    59% {content: " Dev|";}
+    62% {content: " Deve|";}
+    65% {content: " Devel|";}
+    68% {content: " Develo|";}
+    72% {content: " Develop|";}
+    75% {content: " Develope|";}
+    78% {content: " Developer|";}
+    82% {content: " Develope|";}
+    85% {content: " Develop|";}
+    88% {content: " Develo|";}
+    91% {content: " Devel|";}
+    94% {content: " Deve|";}
+    97% {content: " Dev|";}
+    99% {content:  " D|";}
+    100% {content: " |";}
+}
+/* E N D   H O M E  */
+
+/* S T A R T   A B O U T  */
+.bordr
+{
+    width: 90%;
+    height: 415px;
+    border: 10px solid #555555;
+}
+.layer-image
+{
+    top: 20px;
+    left: 20px;
+}
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.458);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100%;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.layer-image:hover .layer
+{
+    top: 0;
+    opacity: 1;
+}
+
+.brdr
+{
+    border: 1px gray dashed;
+}
+
+.about-desc h2
+{
+    position: relative;
+    text-indent: 15px;
+}
+.about-desc h2::before
+{
+    position: absolute;
+    content: " I ";
+    color: #FF305B;
+    left: -2.5%;
+}
+.about-content ul
+{
+    display: table;
+    list-style: outside;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+}
+.about-buttons .btn
+{
+    background-color: #FF305B;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+/* E N D   A B O U T */
+
+/* S T A R T   P O R T F O L IO  */
+.portfolio-links .color
+{
+    color: #FF305B;
+}
+.portfolio-links a
+{
+    color: black;
+}
+.portfolio-links a:hover
+{
+    color: #FF305B;
+}
+/* E N D   P O R T F O L I  O */
+
+/* S T A R T   S E R V I C E  S */
+#services
+{
+    background-color: rgba(0, 0, 0, 0.106);
+}
+#services h2
+{
+    font-size: 40px;
+    color: #333333;
+}
+#services .col-md-3 i
+{
+    color: #FF305B;
+}
+#services .col-md-3:hover i
+{
+    
+    font-size: 20px;
+}
+#services .col-md-3:hover
+{
+    background-color: white;
+}
+#services .col-md-3
+{
+    transition: all 0.5s;
+}
+/* E N D    S E R V I C E  S */
+
+/* S T A R T    T E S T I M O N I A L */
+.shape
+{
+    width: 200px;
+    height: 200px;
+    background-color: #FF305B;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    transform: rotate(45deg);
+}
+.feedback-img
+{
+    position: relative;
+    z-index: 99999;
+}
+/* E N D   T E S T I M O N I A L */
+
+/* S T A R T   B L O G */
+.content h4
+{
+   color: black;
+   transition: all 0.2s;
+}
+.content h4:hover
+{
+    color: #FF305B;
+    cursor: pointer;
+}
+.content a
+{
+    color: black;
+    transition: all 0.2s;
+}
+.content a:hover
+{
+    color: #FF305B;
+}
+.btn
+{
+    background-color: #FF305B;
+    color: white;
+}
+/* E N D   B L O G */
+
+/* S T A R T   F O O T E R  */
+.icons a
+{
+    color: white;
+}
+.icons a:hover
+{
+    color: #FF305B;
+}
+footer
+{
+    background-color: rgba(0, 0, 0, 0.705);
+}
+.mySelf
+{
+    color: #FF305B;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* E N D   F O O T E R */
